@@ -1,8 +1,21 @@
-import React from 'react';
-import type { IconProps } from '../types';
+const fs = require('fs');
 
-export const OHIFLogoHorizontal = (props: IconProps) => (
-  <svg
+function replaceFile(filePath, search, replacement) {
+  if (fs.existsSync(filePath)) {
+    let content = fs.readFileSync(filePath, 'utf8');
+    content = content.replace(search, replacement);
+    fs.writeFileSync(filePath, content);
+    console.log("Updated", filePath);
+  }
+}
+
+// 1. OHIFLogo.tsx
+let p1 = "c:\\Users\\chity\\Desktop\\stanley\\platform\\ui-next\\src\\components\\Icons\\Sources\\OHIFLogo.tsx";
+replaceFile(p1, /<path[\s\S]*?id="OpenHealthImagingFoundation"[\s\S]*?><\/path>/, '<text id="SkibidiScanText" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#FFFFFF" x="35" y="20">SkibidiScan</text>');
+
+// 2. OHIFLogoHorizontal.tsx
+let p2 = "c:\\Users\\chity\\Desktop\\stanley\\platform\\ui-next\\src\\components\\Icons\\Sources\\OHIFLogoHorizontal.tsx";
+let svg2 = `<svg
     width="233"
     height="23"
     viewBox="0 0 233 23"
@@ -17,4 +30,9 @@ export const OHIFLogoHorizontal = (props: IconProps) => (
   </svg>
 );
 
-export default OHIFLogoHorizontal;
+export default OHIFLogoHorizontal;`;
+replaceFile(p2, /<svg[\s\S]*<\/svg>[\s\S]*?export default OHIFLogoHorizontal;/m, svg2);
+
+// 3. OHIFLogoColorDarkBackground.tsx
+let p3 = "c:\\Users\\chity\\Desktop\\stanley\\platform\\ui-next\\src\\components\\Icons\\Sources\\OHIFLogoColorDarkBackground.tsx";
+replaceFile(p3, /<path[\s\S]*?id="OpenHealthImagingFoundation"[\s\S]*?><\/path>/, '<text id="SkibidiScanText" fontFamily="Arial, sans-serif" fontSize="24" fontWeight="bold" fill="#FFFFFF" x="85" y="45">SkibidiScan</text>');
