@@ -4,7 +4,7 @@ This file provides guidance to AI coding agents (Claude, Codex, and other LLM to
 
 ## Project Overview
 
-This is **OHIF** v3  (Open Health Imaging Foundation) - a medical imaging viewer. It's an extensible web imaging platform.
+This is **OHIF** v3  (SkibidiScan) - a medical imaging viewer. It's an extensible web imaging platform.
 ## Development Commands
 
 ### Main Development

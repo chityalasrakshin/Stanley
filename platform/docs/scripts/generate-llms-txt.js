@@ -101,7 +101,7 @@ async function generateLlmsTxt() {
 
   // Add description blockquote
   content +=
-    '> OHIF (Open Health Imaging Foundation) Viewer is an open-source, web-based, zero-footprint DICOM viewer platform designed for medical imaging. It provides a highly configurable and extensible framework for building diagnostic quality medical imaging applications. OHIF Viewer supports various imaging formats (primarily DICOM), offers advanced visualization tools, customizable workflows, and integration capabilities with different data sources.\n\n';
+    '> OHIF (SkibidiScan) Viewer is an open-source, web-based, zero-footprint DICOM viewer platform designed for medical imaging. It provides a highly configurable and extensible framework for building diagnostic quality medical imaging applications. OHIF Viewer supports various imaging formats (primarily DICOM), offers advanced visualization tools, customizable workflows, and integration capabilities with different data sources.\n\n';
 
   // Add general information
   content +=

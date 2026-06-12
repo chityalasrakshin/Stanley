@@ -39,7 +39,7 @@ module.exports = {
   },
   title: 'OHIF',
   tagline: 'Open-source web-based medical imaging platform',
-  organizationName: 'Open Health Imaging Foundation',
+  organizationName: 'SkibidiScan',
   projectName: 'OHIF',
   baseUrl,
   baseUrlIssueBanner: true,
