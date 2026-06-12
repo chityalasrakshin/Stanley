@@ -32,7 +32,6 @@ import {
   useSessionStorage,
   Onboarding,
   ScrollArea,
-  InvestigationalUseDialog,
   formatDICOMDate,
   formatDICOMTime,
   parseStudyDateTimestamp,
@@ -561,7 +560,6 @@ function LegacyWorkList({
         showPatientInfo={PatientInfoVisibility.DISABLED}
       />
       <Onboarding />
-      <InvestigationalUseDialog dialogConfiguration={appConfig?.investigationalUseDialog} />
       <div className="flex h-full flex-col overflow-y-auto">
         <ScrollArea>
           <div className="flex grow flex-col">

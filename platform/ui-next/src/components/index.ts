@@ -69,7 +69,7 @@ import { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider } from './Tool
 import { ToolboxUI } from './OHIFToolbox';
 import Numeric from './Numeric';
 import { InputDialog, PresetDialog } from './OHIFDialogs';
-import { AboutModal, ImageModal, UserPreferencesModal } from './OHIFModals';
+import { ImageModal, UserPreferencesModal } from './OHIFModals';
 import Modal from './Modal/Modal';
 import { FooterAction } from './FooterAction';
 import { InputFilter } from './InputFilter';
@@ -149,7 +149,7 @@ export * from './ColorCircle';
 export { default as AllInOneMenu } from './AllInOneMenu';
 export * from './AllInOneMenu';
 export { default as LineChart } from './LineChart';
-export { default as InvestigationalUseDialog } from './InvestigationalUseDialog';
+
 export { default as LabellingFlow } from './Labelling';
 
 // Segmentation Context Exports
@@ -292,9 +292,7 @@ export {
   ToolButtonListDivider,
   InputDialog,
   PresetDialog,
-  Modal,
-  AboutModal,
-  ImageModal,
+  Modal,  ImageModal,
   UserPreferencesModal,
   FooterAction,
   ToolSettings,

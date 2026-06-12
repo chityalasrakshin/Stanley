@@ -289,51 +289,9 @@ you'll see the following:
 └── README.md                # This file
 ```
 
-## Acknowledgments
 
-To acknowledge the OHIF Viewer in an academic publication, please cite
 
-> _SkibidiScan Viewer: An Extensible Open-Source Framework
-> for Building Web-Based Imaging Applications to Support Cancer Research_
->
-> Erik Ziegler, Trinity Urban, Danny Brown, James Petts, Steve D. Pieper, Rob
-> Lewis, Chris Hafey, and Gordon J. Harris
->
-> _JCO Clinical Cancer Informatics_, no. 4 (2020), 336-345, DOI:
-> [10.1200/CCI.19.00131](https://www.doi.org/10.1200/CCI.19.00131)
->
-> Open-Access on Pubmed Central:
-> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7259879/
 
-or, for v1, please cite:
-
-> _LesionTracker: Extensible Open-Source Zero-Footprint Web Viewer for Cancer
-> Imaging Research and Clinical Trials_
->
-> Trinity Urban, Erik Ziegler, Rob Lewis, Chris Hafey, Cheryl Sadow, Annick D.
-> Van den Abbeele and Gordon J. Harris
->
-> _Cancer Research_, November 1 2017 (77) (21) e119-e122 DOI:
-> [10.1158/0008-5472.CAN-17-0334](https://www.doi.org/10.1158/0008-5472.CAN-17-0334)
-
-**Note:** If you use or find this repository helpful, please take the time to
-star this repository on GitHub. This is an easy way for us to assess adoption
-and it can help us obtain future funding for the project.
-
-This work is supported primarily by the National Institutes of Health, National
-Cancer Institute, Informatics Technology for Cancer Research (ITCR) program,
-under a
-[grant to Dr. Gordon Harris at Massachusetts General Hospital (U24 CA199460)](https://projectreporter.nih.gov/project_info_description.cfm?aid=8971104).
-
-[NCI Imaging Data Commons (IDC) project](https://imaging.datacommons.cancer.gov/) supported the development of new features and bug fixes marked with ["IDC:priority"](https://github.com/OHIF/Viewers/issues?q=is%3Aissue+is%3Aopen+label%3AIDC%3Apriority),
-["IDC:candidate"](https://github.com/OHIF/Viewers/issues?q=is%3Aissue+is%3Aopen+label%3AIDC%3Acandidate) or ["IDC:collaboration"](https://github.com/OHIF/Viewers/issues?q=is%3Aissue+is%3Aopen+label%3AIDC%3Acollaboration). NCI Imaging Data Commons is supported by contract number 19X037Q from
-Leidos Biomedical Research under Task Order HHSN26100071 from NCI. [IDC Viewer](https://learn.canceridc.dev/portal/visualization) is a customized version of the OHIF Viewer.
-
-This project is tested with BrowserStack. Thank you for supporting open-source!
-
-## License
-
-MIT © [OHIF](https://github.com/OHIF)
 
 <!--
   Links
