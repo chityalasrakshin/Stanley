@@ -55,10 +55,9 @@ export default function WorkList({
   }, [customizationService]);
 
   const logoComponent = appConfig?.whiteLabeling?.createLogoComponentFn?.(React) ?? (
-    <Icons.OHIFLogoHorizontal
-      aria-label="OHIF logo"
-      className="h-[22px] w-[232px]"
-    />
+    <div className="text-white text-xl font-bold tracking-wider">
+      SkibidiScan
+    </div>
   );
 
   const toolbarActions = useWorkListToolbarActions(servicesManager, dataSource, onRefresh);
@@ -112,7 +111,7 @@ export default function WorkList({
                   <div className="h-8 w-8" />
                 )
               }
-              title={'Study List'}
+              title={'Documents'}
               onSelectionChange={sel => setSelected((sel as StudyRow[])[0] ?? null)}
               toolbarLeftComponent={logoComponent}
               toolbarRightActionsComponent={toolbarActions}
@@ -138,4 +137,3 @@ export default function WorkList({
     </div>
   );
 }
-
